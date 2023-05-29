@@ -107,3 +107,12 @@ h1 {
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@media (max-width: 400px) {
+  .todo-input {
+    width: 250px;
+  }
+  .todo-edit {
+    width: 215px;
+  }
+}
